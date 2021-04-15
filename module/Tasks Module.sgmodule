@@ -1,0 +1,12 @@
+#!name=Tasks Module
+#!desc=iOS Tasks 模块配置
+#!脚本名 = type=cron,cronexp="0 0 * * *",wake-system=1, timeout=600, script-path=脚本链接
+
+[Script]
+京东 = type=cron, cronexp="0 1 */12 * * *", wake-system=1, timeout=3600, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+
+滴滴出行 = type=cron,cronexp="0 1,20,21 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
+
+京喜财富岛提现 = type=cron,cronexp="0 0 0 * * *",wake-system=1,timeout=3600,script-path=https://qxzy.top/rules/QuantumultX/js/jx_cfdtx.js
+
+#东东超市兑换奖品 = type=cron,cronexp="0,1,58,59 0,59 0,23 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js
